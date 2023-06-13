@@ -10,7 +10,9 @@ app = Flask(__name__)
 
 main_html = """
 <html>
-<head></head>
+<head>
+<title>Letras UPC para PDI</title>
+</head>
 <script>
   var mousePressed = false;
   var lastX, lastY;
